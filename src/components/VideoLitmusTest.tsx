@@ -1,4 +1,5 @@
 import { AlertCircle } from "lucide-react";
+import warAndPeaceParody from "@/assets/war-and-peace-parody.png";
 
 export const VideoLitmusTest = () => {
   return (
@@ -72,6 +73,31 @@ export const VideoLitmusTest = () => {
               <p className="text-sm text-muted-foreground mb-3">
                 It's important for peace. Not just on your borders, or across the Taiwan Strait, but across the world in places like Russia and Ukraine, where the war can't ever be called what it is, a war. It's a euphemistic "специальная военная операция", a "Special Military Operation" instead. Imagine if Tolstoy's great work was called "Специальная военная операция и мир", "Special Military Operation and Peace". <a href="https://search.worldcat.org/title/1528795551" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent/80 transition-colors font-semibold underline">Welcome to 1984.</a>
               </p>
+
+              <div className="flex justify-center my-6">
+                <a 
+                  href="https://search.worldcat.org/title/1528795551" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block max-w-xs hover:opacity-80 transition-opacity"
+                >
+                  <img 
+                    src={warAndPeaceParody} 
+                    alt="Satirical book cover: Special Military Operation and Peace" 
+                    className="w-full h-auto rounded-lg shadow-intense"
+                  />
+                </a>
+              </div>
+
+              <div className="bg-background/50 border border-accent/20 rounded-lg p-4 mb-4">
+                <p className="text-sm text-muted-foreground mb-3">
+                  George Orwell's <em>1984</em> would be public domain today as of January 1, 2025 worldwide if it weren't for the <a href="https://web.law.duke.edu/cspd/publicdomainday/2025/" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent/80 transition-colors underline">"Mickey Mouse" copyright extension</a> preventing all creative copyright works from becoming freely available worldwide 75 years after author death. Now, without a release of copyright by the royalty rights holders, we have to wait another 20 years until January 1, 2045 for <em>1984</em> to be free to all firewalled citizens struggling under Ministries of Truth.
+                </p>
+                <p className="text-sm text-muted-foreground mb-3">
+                  Disney's interests in Mickey Mouse do not outweigh the interest in getting <em>1984</em> into the hands of all Russian and Chinese citizens for the very small cost of one-time translation. The US Congress can help: if the Select Committee on the CCP could push to reform US copyright law to help control the length of global copyright creativity paywalls and, in getting <em>1984</em> and other works translated into the public domain and over the creative fence of the Great Firewalls almost costlessly, they would advance the Tear Down This Firewall Initiative.
+                </p>
+              </div>
+
               <a 
                 href="https://www.newsweek.com/mr-xi-tear-down-this-firewall-opinion-1927362"
                 target="_blank"
