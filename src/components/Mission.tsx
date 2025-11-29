@@ -4,7 +4,7 @@ export const Mission = () => {
   const stats = [
     { 
       icon: Shield, 
-      label: "Countries Assessed", 
+      label: "Countries that Censor Civic Religious Diversity", 
       value: "72", 
       subtext: "Only 18 rated 'Free' for internet access",
       source: "Freedom House 2025"
