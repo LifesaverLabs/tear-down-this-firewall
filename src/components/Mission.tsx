@@ -2,7 +2,7 @@ import { Shield, Globe, Users } from "lucide-react";
 
 export const Mission = () => {
   const stats = [
-    { icon: Shield, label: "Countries with Heavy Censorship", value: "50+" },
+    { icon: Shield, label: "Countries with Heavy Censorship", value: "40+" },
     { icon: Globe, label: "People Behind Firewalls", value: "2B+" },
     { icon: Users, label: "Blocked Innovators", value: "Countless" },
   ];
