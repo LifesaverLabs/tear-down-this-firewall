@@ -69,6 +69,9 @@ export const VideoLitmusTest = () => {
               <p className="text-sm text-foreground font-semibold mb-2">
                 Even if you as a firewalled citizen feel the tone is too harsh and unfounded, you should have the absolute right to read it and study all the data this opinion was founded on.
               </p>
+              <p className="text-sm text-muted-foreground mb-3">
+                It's important for peace. Not just on your borders, or across the Taiwan Strait, but across the world in places like Russia and Ukraine, where the war can't ever be called what it is, a war. It's a euphemistic "специальная военная операция", a "Special Military Operation" instead. Imagine if Tolstoy's great work was called "Специальная военная операция и мир", "Special Military Operation and Peace".
+              </p>
               <a 
                 href="https://www.newsweek.com/mr-xi-tear-down-this-firewall-opinion-1927362"
                 target="_blank"
