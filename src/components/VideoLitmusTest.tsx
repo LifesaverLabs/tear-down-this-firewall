@@ -70,7 +70,7 @@ export const VideoLitmusTest = () => {
                 Even if you as a firewalled citizen feel the tone is too harsh and unfounded, you should have the absolute right to read it and study all the data this opinion was founded on.
               </p>
               <p className="text-sm text-muted-foreground mb-3">
-                It's important for peace. Not just on your borders, or across the Taiwan Strait, but across the world in places like Russia and Ukraine, where the war can't ever be called what it is, a war. It's a euphemistic "специальная военная операция", a "Special Military Operation" instead. Imagine if Tolstoy's great work was called "Специальная военная операция и мир", "Special Military Operation and Peace".
+                It's important for peace. Not just on your borders, or across the Taiwan Strait, but across the world in places like Russia and Ukraine, where the war can't ever be called what it is, a war. It's a euphemistic "специальная военная операция", a "Special Military Operation" instead. Imagine if Tolstoy's great work was called "Специальная военная операция и мир", "Special Military Operation and Peace". <a href="https://search.worldcat.org/title/1528795551" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent/80 transition-colors font-semibold underline">Welcome to 1984.</a>
               </p>
               <a 
                 href="https://www.newsweek.com/mr-xi-tear-down-this-firewall-opinion-1927362"
