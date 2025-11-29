@@ -2,13 +2,7 @@ import { Shield, Globe, Users } from "lucide-react";
 
 export const Mission = () => {
   const stats = [
-    { 
-      icon: Shield, 
-      label: "Countries that Censor Civic Religious Diversity", 
-      value: "72", 
-      subtext: "Only 18 rated 'Free' for internet access",
-      source: "Freedom House 2025"
-    },
+    { icon: Shield, label: "Countries with Heavy Censorship", value: "50+" },
     { icon: Globe, label: "People Behind Firewalls", value: "2B+" },
     { icon: Users, label: "Blocked Innovators", value: "Countless" },
   ];
@@ -37,19 +31,6 @@ export const Mission = () => {
                 <stat.icon className="w-12 h-12 mx-auto text-primary" />
                 <div className="text-3xl font-bold text-primary">{stat.value}</div>
                 <div className="text-sm text-muted-foreground">{stat.label}</div>
-                {'subtext' in stat && (
-                  <div className="text-xs text-muted-foreground/70 pt-2">{stat.subtext}</div>
-                )}
-                {'source' in stat && (
-                  <a 
-                    href="https://freedomhouse.org/report/freedom-net/2025/uncertain-future-global-internet"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs text-primary/70 hover:text-primary transition-colors inline-block pt-1"
-                  >
-                    Source: {stat.source}
-                  </a>
-                )}
               </div>
             ))}
           </div>
