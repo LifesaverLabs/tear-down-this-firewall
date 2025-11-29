@@ -6,7 +6,7 @@ const stories = [
     title: "Lifesaver Labs Coalition",
     region: "Global",
     category: "Humanitarian",
-    description: "UnifySOS.org and critical life-saving projects face blockage from reaching Chinese students, researchers, and citizens who could benefit from and contribute to these initiatives. The transfer of 'theory of change' concepts and the exchange of emerging communication dialects are severely limited.",
+    description: "UnifySOS.org and critical life-saving projects face blockage from reaching Chinese students, researchers, and citizens who could benefit from and contribute to these initiatives. This especially applies when Lifesaver Labs advocates for universal suffrage for all sufferers. The transfer of 'theory of change' concepts and the exchange of emerging communication dialects are severely limited.",
     impact: "Millions of potential collaborators and beneficiaries unreached",
   },
   {
