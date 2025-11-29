@@ -45,6 +45,41 @@ export const VideoLitmusTest = () => {
             </div>
           </div>
         </div>
+
+        <div className="bg-card/50 border border-border rounded-lg p-6 md:p-8 backdrop-blur-sm animate-fade-in mt-8" style={{ animationDelay: '0.6s' }}>
+          <div className="mb-4">
+            <h3 className="text-2xl font-display font-bold mb-2 text-foreground">
+              Mr. Xi, Tear Down this Firewall
+            </h3>
+            <p className="text-sm text-muted-foreground">
+              House Select Committee on the CCP • July 22, 2024
+            </p>
+          </div>
+          
+          <div className="space-y-4">
+            <p className="text-muted-foreground italic">
+              "When General Secretary Xi Jinping was in San Francisco last fall, he declared that America and China 'must not erect barriers' between one another. He can be true to his word by tearing down the Chinese Communist Party's (CCP) Great Firewall."
+            </p>
+            
+            <p className="text-muted-foreground">
+              "The Great Firewall is a dystopian censorship regime designed to advance near-total societal control over the Chinese people. With an army of censors boosted by artificial intelligence and the assistance of cutting-edge technology, it monitors all information and expression within China, enabling the CCP to rapidly stamp out unapproved speech, while referring violations to the police."
+            </p>
+
+            <div className="bg-accent/10 border border-accent/30 rounded-lg p-4 mt-6">
+              <p className="text-sm text-foreground font-semibold mb-2">
+                Even if you as a firewalled citizen feel the tone is too harsh and unfounded, you should have the absolute right to read it and study all the data this opinion was founded on.
+              </p>
+              <a 
+                href="https://www.newsweek.com/mr-xi-tear-down-this-firewall-opinion-1927362"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-accent/80 transition-colors text-sm font-semibold underline"
+              >
+                Read the full editorial from Chairman Moolenaar →
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
