@@ -1,0 +1,99 @@
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+
+const stories = [
+  {
+    title: "Lifesaver Labs Coalition",
+    region: "Global",
+    category: "Humanitarian",
+    description: "UnifySOS.org and critical life-saving projects face blockage from reaching Chinese students, researchers, and citizens who could benefit from and contribute to these initiatives. The transfer of 'theory of change' concepts and the exchange of emerging communication dialects are severely limited.",
+    impact: "Millions of potential collaborators and beneficiaries unreached",
+  },
+  {
+    title: "Medical Research Collaboration",
+    region: "China & Iran",
+    category: "Healthcare",
+    description: "Leading cancer researchers in China unable to access critical papers and collaborate with international teams. Time-sensitive breakthroughs delayed by months or years due to restricted access to research platforms and communication tools.",
+    impact: "Treatment delays affecting thousands of patients",
+  },
+  {
+    title: "Open Educational Resources",
+    region: "China, Vietnam, Iran",
+    category: "Education",
+    description: "Free online courses, textbooks, and learning platforms blocked from reaching students in multiple countries. Universities unable to access international research databases and collaborative tools essential for modern education.",
+    impact: "Generation of students cut off from world-class education",
+  },
+  {
+    title: "Climate Change Data Sharing",
+    region: "Global South",
+    category: "Environment",
+    description: "Environmental scientists prevented from sharing crucial climate data and coordinating responses to regional crises. Real-time weather and disaster prediction systems unable to reach affected populations.",
+    impact: "Lives at risk during environmental emergencies",
+  },
+  {
+    title: "Open Source Software Development",
+    region: "China & Russia",
+    category: "Technology",
+    description: "Developers unable to contribute to critical open-source projects. GitHub, Stack Overflow, and other collaborative platforms intermittently blocked, fragmenting the global developer community.",
+    impact: "Innovation slowed, security vulnerabilities unpatched",
+  },
+  {
+    title: "Human Rights Documentation",
+    region: "Multiple Countries",
+    category: "Justice",
+    description: "Journalists and activists prevented from sharing evidence of human rights violations. Witness testimonies and documentation tools blocked, making international advocacy nearly impossible.",
+    impact: "Atrocities underreported, justice delayed",
+  },
+];
+
+export const Stories = () => {
+  return (
+    <section id="stories" className="py-24 bg-background">
+      <div className="container mx-auto px-4">
+        <div className="max-w-6xl mx-auto space-y-12">
+          <div className="text-center space-y-4">
+            <h2 className="font-display text-4xl md:text-5xl font-bold">
+              Stories from <span className="text-primary">Behind the Firewall</span>
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Real examples of innovation, research, and humanitarian work blocked by censorship systems worldwide.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {stories.map((story, index) => (
+              <Card 
+                key={index}
+                className="group hover:border-primary/50 transition-all duration-300 hover:shadow-glow bg-card/50 backdrop-blur-sm"
+              >
+                <CardHeader>
+                  <div className="flex items-start justify-between gap-4 mb-2">
+                    <CardTitle className="text-xl group-hover:text-primary transition-colors">
+                      {story.title}
+                    </CardTitle>
+                    <Badge variant="outline" className="shrink-0 border-primary/50 text-primary">
+                      {story.category}
+                    </Badge>
+                  </div>
+                  <CardDescription className="text-muted-foreground">
+                    {story.region}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <p className="text-sm leading-relaxed text-muted-foreground">
+                    {story.description}
+                  </p>
+                  <div className="pt-4 border-t border-border">
+                    <p className="text-xs font-semibold text-primary">
+                      Impact: {story.impact}
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
