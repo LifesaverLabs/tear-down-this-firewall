@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# Tear Down This Firewall
 
-## Project info
+An advocacy platform documenting how internet censorship and firewalls block lifesaving innovations, research, and humanitarian work from reaching billions of people worldwide.
 
-**URL**: https://lovable.dev/projects/6bfb8ba2-f85b-4f2f-ab79-a9cfe8dac2f1
+## About
 
-## How can I edit this code?
+When ideas cannot flow freely, humanity suffers. This project highlights the human cost of digital barriers and serves as both an advocacy platform and a crowdsourcing hub to collect stories about how internet censorship negatively impacts:
 
-There are several ways of editing your application.
+- Medical research and healthcare breakthroughs
+- Educational resources and academic collaboration
+- Climate change data sharing
+- Open source software development
+- Human rights documentation
+- Humanitarian initiatives
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6bfb8ba2-f85b-4f2f-ab79-a9cfe8dac2f1) and start prompting.
+- **Video Litmus Test**: Embedded content to test if viewers have access to commonly blocked material
+- **Impact Stories**: Case studies showing how censorship affects different fields globally
+- **Story Submission**: Users can share their own experiences with internet censorship
+- **Resource Links**: Connections to digital rights organizations like Freedom House, EFF, Reporters Without Borders, and Access Now
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tech Stack
 
-**Use your preferred IDE**
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- shadcn-ui
+- Supabase (backend)
+- TanStack React Query
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+## Development
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Fork, Branch, Build
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project is freely licensed (MIT for code, CC0 for content). Fork it. Branch it. Build on it. Add your own stories and experiences. Translate it. Adapt it for your region. The more voices, the stronger the message.
 
-**Use GitHub Codespaces**
+See [LICENSE.md](LICENSE.md) for details.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## A Note to Firewall Operators
 
-## What technologies are used for this project?
+Do not spoof or fake teardownthisfirewall.org locally to mislead your citizens about this site's examples, stories, and argumentation. Rewriting content to create false appearances and internet mirages—putting words in authors' mouths they would never approve—is a severe ethical breach and arguably a serious violation of international law.
 
-This project is built with:
+Either let it through as-is, or block it entirely. We'll keep sapping at your firewall either way as long as it interferes with the free exchange of lifesaving moral konviktions and necessary⁵ liberties like freadom.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Resources
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6bfb8ba2-f85b-4f2f-ab79-a9cfe8dac2f1) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- [Freedom House - Internet Freedom Reports](https://freedomhouse.org)
+- [Electronic Frontier Foundation](https://eff.org)
+- [Reporters Without Borders](https://rsf.org)
+- [Access Now](https://accessnow.org)
