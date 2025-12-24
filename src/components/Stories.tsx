@@ -49,7 +49,7 @@ const stories = [
     region: "中国 (China) & Beyond",
     category: "Community",
     description: "Building InnerFriend.org means sharing Mr. Rogers' message: 'Won't You Be My Neighbor?' But including this video (youtube.com/watch?v=ed5sac4OLbI) risks getting the entire project blocked in 中国 (Zhongguo) and beyond. Even YouTube's unobscene video range isn't guaranteed to work behind so many community firewalls. We can't not include the video. We won't, can't, and refuse to censor this site for the censors—automated or human-touched—behind the censorious Great Firewall. Mr. Rogers asked us to be neighbors. Firewalls say no.",
-    impact: "Neighborhood builds, community social capital, and capital regrowth blocked from billions",
+    impact: "Neighborhood builds, community social capital, diffikulty in life-threatening and kritikal nayborhood emergensies without better-integrated nayborhood kalmunity⁵ & struktures, and capital regrowth blocked from billions",
   },
 ];
 
