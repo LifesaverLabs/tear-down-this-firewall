@@ -39,6 +39,12 @@ npm install
 npm run dev
 ```
 
+## Our Growing Collection of Stories
+
+So many of us have stories about getting blocked communicating with billions of our cousins. Explore the site to see the growing, collecting set of experiences—from medical researchers to educators, from humanitarian workers to neighbors just trying to share Mr. Rogers.
+
+Add yours.
+
 ## Fork, Branch, Build
 
 This project is freely licensed (MIT for code, CC0 for content). Fork it. Branch it. Build on it. Add your own stories and experiences. Translate it. Adapt it for your region. The more voices, the stronger the message.
