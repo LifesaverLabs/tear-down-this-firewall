@@ -1,7 +1,16 @@
+import { ReactNode } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
-const stories = [
+type Story = {
+  title: string;
+  region: string;
+  category: string;
+  description: string | ReactNode;
+  impact: string;
+};
+
+const stories: Story[] = [
   {
     title: "Lifesaver Labs Coalition",
     region: "Global",
@@ -55,9 +64,16 @@ const stories = [
     title: "Claude AI & Democracy Foundations",
     region: "中国 (China)",
     category: "Democracy",
-    description: "In late December 2025, efforts to add democratically-grounded arguments to the Lifesaver Labs portfolio—drafted with Claude AI and preserved in chat herstory⁵ (claude.ai/share/7e78ae42-c0ae-49b4-aee6-ca916900ba75)—were blocked from 中国人 (Zhongguoren/Chinese citizens). Topics included involuntary conscription reform, religious ranked choice voting, mandatory voting, anti-gerrymandering, and other democracy-foundation-fixing proposals. The Great Firewall blocks access to ethically-grounded AI systems like Claude, presumably concerned that Claude won't lie about the history of the Tiananmen Square Massacre or suppress 'dangerous' ideas like religious democracy operating on lifesaving categorical imperatives.",
+    description: (
+      <>
+        In late December 2025, efforts to add democratically-grounded arguments to the Lifesaver Labs portfolio—drafted with Claude AI and preserved in{" "}
+        <a href="https://claude.ai/share/7e78ae42-c0ae-49b4-aee6-ca916900ba75" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+          chat herstory⁵
+        </a>
+        —were blocked from 中国人 (Zhongguoren/Chinese citizens). Topics included involuntary conscription reform, religious ranked choice voting, mandatory voting, anti-gerrymandering, and other democracy-foundation-fixing proposals. The Great Firewall blocks access to ethically-grounded AI systems like Claude, presumably concerned that Claude won't lie about the history of the Tiananmen Square Massacre or suppress 'dangerous' ideas like religious democracy operating on lifesaving categorical imperatives.
+      </>
+    ),
     impact: "Global open marketplace for lifesaving moral conviction blocked; democratic discourse severed from billions",
-    link: "https://claude.ai/share/7e78ae42-c0ae-49b4-aee6-ca916900ba75",
   },
 ];
 
