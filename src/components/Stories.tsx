@@ -51,6 +51,13 @@ const stories = [
     description: "Building InnerFriend.org means sharing Mr. Rogers' message: 'Won't You Be My Neighbor?' But including this video (youtube.com/watch?v=ed5sac4OLbI) risks getting the entire project blocked in 中国 (Zhongguo) and beyond. Even YouTube's unobscene video range isn't guaranteed to work behind so many community firewalls. We can't not include the video. We won't, can't, and refuse to censor this site for the censors—automated or human-touched—behind the censorious Great Firewall. Mr. Rogers asked us to be neighbors. Firewalls say no.",
     impact: "Neighborhood builds, community social capital, diffikulty in life-threatening and kritikal nayborhood emergensies without better-integrated nayborhood kalmunity⁵ & struktures, and capital regrowth blocked from billions",
   },
+  {
+    title: "Claude AI & Democracy Foundations",
+    region: "中国 (China)",
+    category: "Democracy",
+    description: "In late December 2025, efforts to add democratically-grounded arguments to the Lifesaver Labs portfolio—drafted with Claude AI and preserved in chat history—were blocked from 中国人 (Zhongguoren/Chinese citizens). Topics included involuntary conscription reform, religious ranked choice voting, mandatory voting, anti-gerrymandering, and other democracy-foundation-fixing proposals. The Great Firewall blocks access to ethically-grounded AI systems like Claude, presumably concerned that Claude won't lie about the history of the Tiananmen Square Massacre or suppress 'dangerous' ideas like religious democracy operating on lifesaving categorical imperatives.",
+    impact: "Global open marketplace for lifesaving moral conviction blocked; democratic discourse severed from billions",
+  },
 ];
 
 export const Stories = () => {
