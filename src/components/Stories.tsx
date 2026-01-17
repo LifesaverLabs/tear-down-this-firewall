@@ -75,6 +75,13 @@ const stories: Story[] = [
     ),
     impact: "Global open marketplace for lifesaving moral conviction blocked; democratic discourse severed from billions",
   },
+  {
+    title: "Safeword: Youth Dating Safety App",
+    region: "中国 (China) & Taiwan",
+    category: "Safety",
+    description: "An engineer and teacher who built the core framework prototype for Safeword—a safety and health app for youth—cannot ensure it crosses the Great Firewall to protect the grandstudents in 中国 (Zhongguo) the project was largely initiated for. In reaching out to a feminist human-computer interaction scholar who is 台湾人 (Taiwanren) to share the project, the engineer realized he had to detail these barriers. Technical dependencies and forced peculiarities demanded by the censorship regime prevent rapid release or collaboration in 中国 on this now fully open source project. The 1.4 billion soul family there are informationally prevented through force and ideological discussion suppression from asking that last 'why' in so many fields of practice and study. The Great Firewall is a barrier to Family action: American and 台湾人 family helping 中国人 family.",
+    impact: "Sovereign censorship firewalls frustrate multinational standards development and collaboration on critical dating safety layers; unprevented harm among grandchildren of 中国; Family severed from helping Family",
+  },
 ];
 
 export const Stories = () => {
